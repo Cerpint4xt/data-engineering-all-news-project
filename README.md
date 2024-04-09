@@ -8,8 +8,25 @@ In order to have the dataset available in a more granular manner. After download
 [Dataset From Component One](https://components.one/datasets/all-the-news-2-news-articles-dataset)
 For reference you can check the Granularization of the dataset inside the `Notebook` folder
 
+## Problem Description 
+*
+*
+*
+
 ### Dataset by year and month
 
 The dataset was uploaded first processed is in the [following repo](https://github.com/Cerpint4xt/All_the_News_2_0_Component_One)
 
-### 
+### Data ingestion
+
+
+### Data Warehouse
+
+
+
+### Transformations
+
+
+### Dashboard
+
+
