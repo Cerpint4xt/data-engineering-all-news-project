@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: all-news-project-419219
+    schema: all_news_data
+
+    tables:
+      - name: materialized_table_all_news_data
+      - name: materialized_table_all_news_data_articles
