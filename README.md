@@ -82,7 +82,7 @@ By the end of the project you present the Dashboard to your News Boss, he/she se
 
 ## Running the project
 
-1. Clone the repository
+1. Clone the repository: `git clone --recurse-submodules https://github.com/Cerpint4xt/data-engineering-all-news-project`
 2. Create the project in GCP : ex. all_news_project
 3. Install docker, python, terraform (if want to deploy the terraform template for mage)
 4. Create your service accounts for the docker or terraform deployment (as in youtube videos)
