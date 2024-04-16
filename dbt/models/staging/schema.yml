@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: all-news-project-419219
+    schema: all_news_data
+
+    tables:
+      - name: all_news_partitioned_table_authors
+      - name: all_news_partitioned_table_articles

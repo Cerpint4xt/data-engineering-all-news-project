@@ -16,7 +16,6 @@ The image next explaint the technology used and the project diagram
 
 ![Diagram Example](/images/project_diagram.png)
 
-
 ### Granularization of the dataset
 
 In order to have the dataset available in a more granular manner. After downloading the dataset from Hugging Face and creating granular files. Then I was able to continue with the process.
@@ -69,8 +68,10 @@ Finally, to show all your work for your News Boss, you set up a looker with the 
 * The time-series of the quantity of articles written by each publication.
 
 ![Looker Dashboard](/images/looker_dashboard.png)
+[The Dashboar presented to you News Boss](https://lookerstudio.google.com/s/iH2qVxvo8Qw)
 
 ## Conclusions
+
 By the end of the project you present the Dashboard to your News Boss, he/she seems very pleased to have the dashboard available. He/She thinks that you could develop a ML model after analyzing the data. (Now you think you could learn MLOps from #DataTalksClub or even the Machine Learning Course)
 
 * You used the same stack as in the course with another dataset
@@ -81,7 +82,7 @@ By the end of the project you present the Dashboard to your News Boss, he/she se
 
 ## Running the project
 
-1. Clone the repository
+1. Clone the repository: `git clone --recurse-submodules https://github.com/Cerpint4xt/data-engineering-all-news-project`
 2. Create the project in GCP : ex. all_news_project
 3. Install docker, python, terraform (if want to deploy the terraform template for mage)
 4. Create your service accounts for the docker or terraform deployment (as in youtube videos)
