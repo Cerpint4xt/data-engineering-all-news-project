@@ -6,7 +6,7 @@
 
 with all_news_data_author as (
     select * 
-    from {{ ref('stg_materialized_table_all_news_data') }}
+    from {{ ref('stg_materialized_table_all_news_data_authors') }}
 ),
 all_news_data_article as (
     select *
