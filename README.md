@@ -44,7 +44,8 @@ As in the picture, there are two tables `all_news_data_authors` and `all_news_da
 
 ### Data Warehouse
 
-From Google Cloud Storage to Google BigQuery, just a couple of queries were run in the BQ interface to create all the necessary tables to take advantage of `dbt`.
+From Google Cloud Storage to Google BigQuery, just a couple of queries were run in the BQ interface to create all the necessary tables to take advantage of `dbt`. ***Use `queries.sql` file to create all the tables***.
+
 Creating the tables with `partitions` and `clustering` to enhance the flow of the pipeline.
 
 After creating the tables BigQuery should look similar to the next picture
