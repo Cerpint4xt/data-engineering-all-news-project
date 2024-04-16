@@ -6,5 +6,5 @@ sources:
     schema: all_news_data
 
     tables:
-      - name: materialized_table_all_news_data
-      - name: materialized_table_all_news_data_articles
+      - name: all_news_partitioned_table_authors
+      - name: all_news_partitioned_table_articles
