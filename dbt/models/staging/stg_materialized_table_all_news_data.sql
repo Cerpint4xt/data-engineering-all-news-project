@@ -9,7 +9,7 @@ with all_news_data as (
 
     select *,
     row_number() over(partition by author, date) as rn
-    from {{ source('staging', 'materialized_table_all_news_data') }}
+    from {{ source('staging', 'all_news_partitioned_table') }}
     where author != 'unknown' and author is not null
 
 ),

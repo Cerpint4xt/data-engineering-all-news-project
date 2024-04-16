@@ -8,7 +8,7 @@ with all_news_data_article as (
 
     select *,
     row_number() over(partition by publication, date) as rn 
-    from {{ source('staging', 'materialized_table_all_news_data_articles') }}
+    from {{ source('staging', 'all_news_partitioned_table_articles') }}
     where publication is not null
 ),
 
@@ -29,6 +29,7 @@ renamed as (
 
 select * from renamed
 
+-- dbt build --select <model.sql> --vars '{'is_test_run':'false'}'
 {% if var('is_test_run', default=true) %}
 
     limit 100
