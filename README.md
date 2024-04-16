@@ -16,7 +16,6 @@ The image next explaint the technology used and the project diagram
 
 ![Diagram Example](/images/project_diagram.png)
 
-
 ### Granularization of the dataset
 
 In order to have the dataset available in a more granular manner. After downloading the dataset from Hugging Face and creating granular files. Then I was able to continue with the process.
@@ -71,6 +70,7 @@ Finally, to show all your work for your News Boss, you set up a looker with the 
 ![Looker Dashboard](/images/looker_dashboard.png)
 
 ## Conclusions
+
 By the end of the project you present the Dashboard to your News Boss, he/she seems very pleased to have the dashboard available. He/She thinks that you could develop a ML model after analyzing the data. (Now you think you could learn MLOps from #DataTalksClub or even the Machine Learning Course)
 
 * You used the same stack as in the course with another dataset
