@@ -68,7 +68,7 @@ Finally, to show all your work for your News Boss, you set up a looker with the 
 * The time-series of the quantity of articles written by each publication.
 
 ![Looker Dashboard](/images/looker_dashboard.png)
-[The Dashboar presented to you News Boss](https://lookerstudio.google.com/s/iH2qVxvo8Qw)
+[The Dashboard presented to you News Boss](https://lookerstudio.google.com/s/iH2qVxvo8Qw)
 
 ## Conclusions
 
