@@ -25,7 +25,7 @@ left join all_news_data_article
 on all_news_data_author.date = all_news_data_article.date
  and all_news_data_author.publication = all_news_data_article.publication 
 
--- dbt build --select <model.sql> --vars '{'is_test_run':'false'}'
+-- dbt build --select <model.sql> --vars '{'is_test_run': 'false'}'
 {% if var('is_test_run', default=true) %}
 
     limit 100
