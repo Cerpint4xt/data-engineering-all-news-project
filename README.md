@@ -84,7 +84,8 @@ By the end of the project you present the Dashboard to your News Boss, he/she se
 
 1. Clone the repository: `git clone --recurse-submodules https://github.com/Cerpint4xt/data-engineering-all-news-project`
 2. Create the project in GCP : ex. all_news_project
-3. Install docker, python, terraform (if want to deploy the terraform template for mage)
+3. Install docker, python, terraform (if want to deploy the terraform template for `Mage`)
 4. Create your service accounts for the docker or terraform deployment (as in youtube videos)
-5. Setup the dbt cloud with the repository and run the commands (as in youtube videos)
-6. Setup looker to start playing with the data.
+5. Follow instruction in submodule repository to run the pipeline in `Mage`
+6. Setup the `dbt cloud` with the repository and run the commands (as in youtube videos)
+7. Setup looker to start playing with the data.
